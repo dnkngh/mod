@@ -1,0 +1,5 @@
+def addition(*args):
+    result = 0
+    for value in args:
+        result += value
+    return result
